@@ -1,0 +1,259 @@
+@media only screen and (max-width:1200px) {
+.foot h4{
+        margin-left: 0;
+    }
+    
+
+}
+@media only screen and (min-width:1024px) {
+    .mobile-menu span{
+        display: none;
+    }
+}
+@media only screen and (max-width:1024px) {
+    .row {
+        margin: 0 15px;
+    }
+    
+    .mobile-menu span{
+        display: block;
+    }
+    .nav{
+        display: none;
+    }
+    html {
+        font-size: 57.5%;
+    }
+    .content{
+        width: 30rem;
+    }
+    
+    .image{
+        width: 22rem;
+        height: 35rem;
+        margin-left: 3rem;
+    }
+    .service{
+        height: 180vh;
+    }
+    header{
+        height: 100vh;
+    }
+    .about-me{
+        height: 130vh;
+    }
+    .footer{
+        height: 80vh;
+    }
+    
+    .pic1{
+        width: 20rem;
+    height: 15rem;
+    position: absolute;
+    top: 0;
+    left: 2rem;
+    }
+    
+   .button {
+    margin-left: 40%;
+    margin-top: 15%;
+    height: 5rem;
+    width: 25rem;
+    border-radius: 1rem;
+    font-size: 3.2rem;
+    background: #303030;
+    color: #fff;
+    display: inline-block;
+}
+    
+    .middle{
+        left:60%;
+    }
+    .portfolio-info {
+        margin-left: 15rem;
+    }
+    .row2{
+        margin-left: 10rem;
+    }
+    
+     .Akash{
+        margin-left: 5rem;
+    }
+    .box1 h3
+    {
+        margin-left: 15rem;
+    }
+    .box1 h4{
+        margin-left:7rem;
+    }
+    .box1 p{
+        margin-left: 0;
+    }
+        .contacts {
+    margin-left: 5rem;
+    }
+    
+    .foot h4{
+        margin-left: 0;
+    }
+    .special .span-tag::after {
+        width: 15rem;
+    }
+    
+    }
+
+@media only screen and (max-width:980px) {
+ .image{
+        width: 20rem;
+        
+    }
+    .pic1{
+        width: 19rem;
+        left: 1.6rem;
+
+}
+    .contact h4 {
+    margin-left: 10%;
+}
+}
+
+@media only screen and (max-width:800px) {
+    html {
+    font-size: 47.5%;
+}
+    header{
+        height: 80vh;
+    }
+    
+    h3 {
+    font-size: 2.4rem;
+    margin-left: 15%;
+}
+    .service{
+        height: 150vh;
+    }
+    
+    .progress-skill .span_1_of_4{
+        width: 22.8%;
+    }
+    .progress-name {
+        margin-left: 15rem;
+}
+    .portfolio .span_1_of_4{
+        width: 42.5%;
+    }
+}
+
+@media only screen and (max-width:768px) {
+
+ .content{
+        width: 25rem;
+    }
+    .pic{
+        margin-left: 5rem;
+    }
+header{
+        height: 100vh;
+    }
+    
+    .progress-skill .span_1_of_4{
+        width: 20.8%;
+    }
+    
+}
+
+
+@media only screen and (max-width:414px) {
+    
+.content {
+    width: 30rem;
+    text-align: center;
+}    
+    .pic {
+    margin-left: 0rem;
+}
+    header{
+        height: 140vh;
+    }
+     .service{
+        height: 400vh;
+    }
+    .progress-skill .col{
+        width: 10.8%;
+    }
+    .button{
+        margin-left: 18%;
+    }
+    
+    .progress-skill .span_1_of_4{
+        width: 50%;
+    }
+    .progress-skill .row{
+        margin-left:0
+    }
+     .about-me{
+        height: 180vh;
+    }
+    .footer{
+        height: 200vh;
+    }
+    
+}
+
+
+@media only screen and (max-width:414px) {
+
+    .service{
+        height: 400vh;
+    }
+.progress-skill .span_1_of_4{
+        width: 45%;
+    }
+    .progress-skill .row{
+        margin-left:0
+    }
+    .portfolio-info {
+    margin-left: 10rem;
+}
+    .box1 h3 {
+    margin-left: 10rem;
+}
+    .box1 h4 {
+    margin-left: 2rem;
+}
+    .box1 p {
+    margin-left: 2rem;
+}
+
+
+}
+
+@media only screen and (max-width:414px) {
+
+   .progress-skill .row{
+        margin-left:-3rem;
+    }  
+    
+}
+
+@media only screen and (max-width:414px) {
+    .pic{
+        width: 32rem;
+    }
+ .progress-skill .row{
+        margin-left:-7rem;
+    } 
+    .about-me{
+        height: 200vh;
+    }
+     .footer{
+        height: 220vh;
+    }
+    .portfolio-info {
+    margin-left: 6rem;
+}
+    
+    .contacts {
+    margin-left: 0rem;
+}
+}

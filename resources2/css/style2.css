@@ -1,0 +1,703 @@
+/////*********common*****////////
+
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Titillium Web', sans-serif;
+    text-rendering: optimizeLegibility;
+    line-height: 1.3;
+    margin: 0;
+}
+
+:focus {
+    outline: 0;
+}
+
+ul li {
+    list-style-type: none;
+}
+
+html {
+    font-size: 62.5%;
+    scroll-behavior: smooth;
+    }
+
+////////**************stickt**************////////////
+
+
+.sticky .nav {
+    margin-top: 0;
+}
+/*********mobile-menu*///////////
+
+
+.mobile-menu span {
+    color: #fff;
+    float: right;
+    font-size: 10rem;
+    margin-top: 2rem;
+    display: none;
+}
+
+.mobile-menu span:hover {
+    cursor: pointer;
+}
+
+.overlay {
+    width: 0;
+    height: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: rgba(0, 0, 0, .9);
+    z-index: 1;
+    overflow: hidden;
+    transition: .5s;
+}
+
+.overlay-content {
+    position: relative;
+    top: 10%;
+    width: 100%;
+    text-align: center;
+}
+
+.overlay a {
+    text-decoration: none;
+    display: block;
+    font-size: 3rem;
+    text-transform: uppercase;
+    letter-spacing: .3rem;
+    color: #999;
+    padding: 1rem 0;
+}
+
+.overlay a:hover {
+    color: #fff;
+}
+
+.overlay .closebtn {
+    position: absolute;
+    top: 1rem;
+    right: 4.5rem;
+    font-size: 6rem;
+}
+
+.sticky mobile-menu span {
+    margin-top: 0;
+    line-height: 1;
+}
+
+/**********header******//////
+
+
+.row {
+    max-width: 114rem;
+    margin: 0 auto;
+}
+.row1{
+    display: inline-block;
+    margin-top: 1rem;
+}
+
+.head {
+    margin: 0;
+    margin-top:0;
+    margin-left: 5rem;
+   height: 3rem;
+    width: 20rem;
+    
+}
+
+header {
+    background-color:#4b4b4b;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 120vh;
+    position: relative;
+    background-repeat: no-repeat;
+    background-size: 214rem 120rem;
+}
+
+.content {
+    margin-top: 5%;
+    margin-left: 10%;
+    width: 40rem;
+    display: inline-block;
+    float: left;
+}
+.cursus{
+    font-size: 4.6rem;
+    color: #fff;
+    font-weight: 500;
+   padding-top: 5rem;
+}
+
+
+.para{
+    font-size: 1.6rem;
+    margin-left: 22%;
+    color: #fff;
+    width: 100%;
+}
+.para1{
+   color: #979797;  
+    font-size: 1.6rem;
+    width:auto;
+}
+
+
+
+
+.pic{
+ 
+    border-radius: 50%;
+    margin-top: 10rem;
+    margin-left: 15rem;
+    height: 40rem;
+    width: 40rem;
+    border: 3rem solid #6B6B6B;
+  
+}
+
+.heading{
+    float: left;
+}
+
+
+
+
+.nav {
+    float: right;
+    margin-top: 4rem;
+}
+
+.nav li {
+    display: inline-block;
+    margin-left: 1rem;
+}
+
+.nav li:first-child {
+    margin-left: 0;
+}
+
+.nav li a:link,
+.nav li a:visited {
+    color: #fff;
+    text-decoration: none;
+    text-transform: uppercase;
+    background: rgba(100, 58, 121, 0);
+    padding: .3rem 1.5rem;
+    border-radius: 1rem;
+    display: inline-block;
+    font-size: 1.6rem;
+    transition: .3s;
+}
+
+.nav li:hover a:link,
+.nav li:hover a:visited {
+    background: #76C38F;
+}
+
+.nav li.active a {
+    background: #454545;
+}
+
+.btn,
+.btn link,
+.btn link:visited {
+    text-decoration: none;
+    border-radius: .3rem;
+    text-transform: uppercase;
+    color: #fff;
+    background: #333;
+    border-bottom: .3rem solid #000;
+    padding: 1.5rem 6rem;
+    display: inline-block;
+    margin-top: 3rem;
+    font-size: 1.5rem;
+    border-radius: 1rem;
+}
+
+.abc:link,
+.abc:visited {
+    background: #76c38f;
+    border-bottom: #c86a40;
+}
+
+
+.button{
+    margin-left: 40%;
+    margin-top: 5%;
+    height: 5rem;
+    width: 25rem;
+    border-radius: 1rem;
+    font-size: 3.2rem;
+    background:#303030;
+    color: #fff;
+    display: inline-block;
+}
+
+
+section {
+    padding: 8rem;
+}
+
+////////********service****//////////
+
+.clearfix{
+    content: "";
+    display: table;
+    clear: both;
+    height: 0;
+    visibility: hidden;
+}
+
+
+.service{
+    
+    height: 180vh;
+    background-color: #3e5b5b;
+}
+
+
+.service-tag{
+    font-size: 2.2rem;
+    text-align: center;
+    color: #fff;
+}
+
+.flag{
+    margin-top: 2rem;
+    width: 20rem;
+    height: 19rem;
+    margin-left: 5rem;
+}
+
+.para2{
+    margin-left: 20%;
+    width: 80%;
+    font-size: 1.2rem;
+   
+}
+    
+h2{
+    color:#fff;
+    text-align: center;
+    font-size: 3rem;
+}
+
+h3{
+    margin-top: 15rem;
+    text-transform: uppercase;
+    font-size: 2.6rem;
+    margin-left: 18%;
+}
+    
+.frame{
+    width:22.5rem;
+    height: 31.3rem;
+    position: relative;
+    margin-left: 8%;
+    
+}
+.image {
+  opacity: 1;
+  display: block;
+  width:auto;
+  height: auto;
+  transition: .5s ease;
+  backface-visibility:visible;
+}
+
+.frame:hover .image {
+  opacity: 0.3;
+  cursor: pointer;
+   
+}
+.box{
+    margin-top: 5rem;
+}
+.pic1{
+    width: 22rem;
+    height: 14rem;
+    position:absolute;
+    top:0;
+    left:1rem;
+}
+
+
+.text {
+  background-color: #4CAF50;
+  color: white;
+  font-size: 16px;
+  padding: 16px 32px;
+}
+
+.container1 {
+  position: relative;
+  width: 100%;
+}
+
+.image1 {
+  opacity: 1;
+  display: block;
+  width: 29rem;
+  height: 19rem;
+  transition: .5s ease;
+  backface-visibility: hidden;
+}
+
+.middle {
+  transition: .5s ease;
+  opacity: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  text-align:center;
+}
+
+.container1:hover .image1 {
+  opacity: 0.3;
+    cursor: pointer;
+     border: 1rem solid #6B6B6B;
+}
+
+.container1:hover .middle {
+  opacity: 1;
+}
+
+
+
+/******progress skill*///////
+
+
+.progress-skill{
+    height: 60vh;
+    
+}
+
+.progress-skill{
+    padding: 3rem 0;
+    background-color:#0a8252;
+}
+
+.progress-para{
+    font-size: 2rem;
+    text-align: center;
+    color: #fff;
+    margin-bottom: 10rem;
+}
+.progress-bar{
+  position: relative;
+  float:left;
+  text-align: center;
+    margin-left: 8rem;
+}
+
+.progress-tag{
+    margin-left: 6rem;
+}
+
+.progress-name{
+    
+    color: #fff;
+    margin-top: 10rem;
+    margin-left: 12rem;
+}
+.barOverflow{ 
+  position: relative;
+  overflow: hidden; 
+  width: 150px; height: 70px; 
+  margin-bottom: -14px;
+}
+.bar{
+  position: absolute;
+  top: 0; left: 0;
+  width: 150px; height: 150px; 
+  border-radius: 50%;
+  box-sizing: border-box;
+  border: 15px solid gray;       
+  border-bottom-color: white; 
+  border-right-color: white;
+}
+
+
+
+///////********portfolio*********////////
+
+
+.portfolio{
+    height: 80vh;
+    
+}
+
+.portfolio{
+    background: #4b4066;
+    padding: 3rem 0;
+}
+
+.portfolio-heading{
+    font-size: 2rem;
+    text-align: center;
+    color: #fff;
+}
+.sample{
+    width: 80%;
+}
+
+.row2{
+    margin-left: 10rem;
+}
+
+.portfolio-info{
+    margin-top: 2rem;
+    margin-left: 7rem;
+    color: #fff;
+    font-size: 2rem;
+    font-weight: 400;
+}
+
+/***********aboutme*******//////
+
+
+
+.box1{
+    margin-left: 50rem;
+  
+}
+.new{
+      float: left;
+}
+
+
+.box1 h3{
+    color: #fff;
+    margin-left: 32rem;
+    margin-top: 3rem;
+}
+.box1 h4{
+     color: #fff;
+    margin-left: 25rem;
+    margin-top: 3rem;
+    font-size: 3rem;
+}
+
+
+.about-me{
+    height: 130vh;
+    background-color: #2c3840;
+    
+}
+
+.Akash{
+    margin-top: 4rem;
+    width: 60%;
+    height: 40rem;
+    border-radius: 2%;
+    margin-left: 20rem;
+}
+
+.box1 p{
+    color:#fff;
+    margin-left: 20rem;
+    font-size: 1.5rem;
+}
+
+.box2 h3{
+    color: #fff;
+   margin-top: 5rem;
+}
+.contacts{
+    margin-left: 20rem;
+}
+
+.box2 h4{
+    margin-top: 3rem;
+    font-size: 2rem;
+}
+.phn-logo{
+    margin-top: .5rem;
+    font-size: 2rem;
+    color: #fff;
+    float: left;
+}
+
+.email-logo{
+    margin-top: 1.5rem;
+    font-size: 2rem;
+    color: #fff;
+    float: left;
+}
+.material-icons{
+    margin-top: 1.5rem;
+    font-size: 2rem;
+    color: #fff;
+    float: left;
+    
+}
+.contact-details{
+    margin-left: 5rem;
+    color: #fff;
+    font-size: 1.5rem;
+}
+
+ul li {
+    list-style-type: none;
+}
+
+.social-link {
+    margin-top: 4.5rem;
+    font-size: 2.4rem;
+    letter-spacing: 1rem;
+    margin-left:1rem;
+}
+
+.social-link ul li {
+    display: inline-block;
+}
+
+.social-link ul li a:link {
+    color: #fff;
+}
+
+.social-link ul li a:link i::before {
+    background: #bdd1df;
+    width: 3.5rem;
+    height: 3.5rem;
+    display: inline-block;
+    font-size: 2rem;
+    border-radius: 60%;
+    padding-left: 30%;
+    padding-top: 30%;
+    transition: .5s;
+}
+
+.social-link ul li a:hover i::before {
+    background: #76c38f;
+    transform: rotate(360deg);
+}
+
+////////////************footer**********///////
+.footer{
+    padding:3rem 0;
+     
+}
+.footer{
+    background: #313131;
+    height: 80vh;
+   
+}
+
+
+
+.row3{
+    margin-left: 5rem;
+}
+h4{
+    font-size: 1.6rem;
+    color: #f8f8f8;
+    font-weight: 300;
+    margin-bottom: 3rem;
+    margin-left: 5rem;
+    margin-top: 2.5rem;
+}
+
+
+.span-tag{
+    color:#76c291;
+    font-size: 1.3rem;
+     content: "\00BB";
+    font-weight: 400;
+    line-height: 150%;
+    text-decoration: none;
+}
+
+.special .span-tag::after{
+    content: "";
+    display: block;
+    height: .1rem;
+    background: #404040;
+    width: 25rem;
+    padding-right: 1rem;
+    margin-top: 0;
+}
+
+.span-tag:hover{
+    cursor: pointer;
+}
+.admin{
+    margin-bottom: .5rem;
+}
+
+.para3{
+    font-size: 1.3rem;
+    color:#979797;
+}
+
+.comment {
+    margin-bottom: 3rem;
+}
+.review{
+    font-size: 1.3rem;
+    color:#979797;
+    width:72%;
+    font-weight: 400;
+}
+
+.contact-col .col{
+    width:100%;
+    font-size: 1.3rem;
+}
+
+.contact h4{
+    margin-left: 4%;
+}
+.contact form {
+    margin-top: 1rem;
+   margin-left: 2%;
+}
+
+.contact input[type=email],
+.contact input[type=text],
+.contact textarea {
+    background: #222222;
+    border: .1rem solid #222222;
+    width: 90%;
+    padding: 1rem 1rem;
+    font-size: 1.3rem;
+    margin:.3rem 0;
+    border-radius: .5rem;
+    color: #fff;
+}
+
+
+.contact-button {
+    margin-left: 5%;
+}
+
+.contact .btn{
+    padding: .7rem 1.5rem;
+    color:#352c27;
+    font-weight: 800;
+    margin-top: 1rem;
+}
+
+.btn-submit {
+    border: 0;
+    border-color: #7cc08f;
+    background: #7cc08f;
+    color: #fff;
+    border-bottom: .3rem solid #7cc08f;
+}
+
+.btn-submit:hover {
+    cursor: pointer;
+}
